@@ -13,7 +13,8 @@ export default function Footer() {
 
                 footer {
                     width: 100%;
-                    height: 100px;
+                    height: fit-content;
+                    padding-bottom: 2%;
                     border-top: 1px solid #eaeaea;
                     display: flex;
                     justify-content: center;
