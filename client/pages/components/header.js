@@ -1,6 +1,11 @@
+import Head from "next/head";
+
 export default function Header() {
     return (
         <header>
+                <Head>
+                    <title>UCR CompSci</title>
+                </Head>
                 <a className="biggest-text" id='logo' href="/">UCR CompSci</a>
                 <div id='menu' className="center-vertical">
                     <a href="/about">About the Team</a>

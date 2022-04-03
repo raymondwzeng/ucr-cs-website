@@ -5,9 +5,6 @@ import Footer from './components/footer'
 export default function Home() {
     return (
         <div className='container'>
-        <Head>
-            <title>UCR CompSci Discord</title>
-        </Head>
         <Header/>
         <main>
             <div id='cover-all'>

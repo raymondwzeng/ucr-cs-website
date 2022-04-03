@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Card from './components/card'
 import Footer from './components/footer'
 import Header from './components/header'
@@ -34,9 +33,6 @@ export default function Documentation() {
 
     return (
         <div className='container'>
-            <Head>
-                <title>UCR CS Discord</title>
-            </Head>
             <Header/>
             <main>
                 <input id="commandInput" type="text" placeholder="Search for a specific command..." onInput={updateSearch}></input>
