@@ -4,9 +4,16 @@ import Header from './components/header'
 import { useState } from 'react'
 
 let commands = {
-    Command1: "This is a test command 1",
-    Command2: "This is a test command 2",
-    Command3: "This is a test command 3"
+    "/createrole roleName categoryName" : "Create a new role for the server with the specified roleName and categoryName",
+    "/deleterole roleName" : "Delete the role with the specified roleName",
+    "/editrole currentRoleName newRoleName" : "Change the name of an existing role.",
+    "/roles" : "View all of the role categories",
+    "/roles category" : "View all of the roles for a single category",
+    "/assignrole role" : "Assign yourself a role",
+    "/unassignrole role" : "Unassign yourself a role",
+    "/linkserver role discordLink" : "Link a class role with a discord server for that class",
+    "/unlinkserver role" : "Unlink all servers from a class role",
+    "/nukeserver" : "Unlink all servers from all class roles"
 }
 
 var commandJSX = []
