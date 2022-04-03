@@ -11,6 +11,7 @@ export default function Header() {
                 <div id='menu' className="center-vertical">
                     <a href="/about">About the Team</a>
                     <a href="/documentation">Bot Commands</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/raymondwzeng/norm-navel-bot">Bot Source</a>
                     <a rel="noopener noreferrer" target="_blank" href="https://github.com/raymondwzeng/ucr-cs-website">Website Source</a>
                     <a className="outline-button button-main" id="join" rel="noopener noreferrer" target="_blank" href="https://discord.gg/S7MGSV4">Join Server</a>
                 </div>
