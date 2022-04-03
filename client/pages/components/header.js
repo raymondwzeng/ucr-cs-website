@@ -1,9 +1,11 @@
 export default function Header() {
     return (
         <header>
-                <a id='logo' href="/">CS @ UCR</a>
-                <div id='menu'>
+                <a className="biggest-text" id='logo' href="/">UCR CompSci</a>
+                <div id='menu' className="center-vertical">
+                    <a href="/about">About the Team</a>
                     <a href="/documentation">Bot Commands</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://github.com/raymondwzeng/ucr-cs-website">Website Source</a>
                     <a className="outline-button button-main" id="join" rel="noopener noreferrer" target="_blank" href="https://discord.gg/S7MGSV4">Join</a>
                 </div>
 
@@ -14,9 +16,10 @@ export default function Header() {
                 }
 
                 header {
-                    width: 100%;
+                    background-color: #FFB81C;
+                    width: 90%;
                     display: flex;
-                    padding: 2% 0;
+                    padding: 2% 5%;
                     justify-content: space-between;
                     align-items: center;
                 }
